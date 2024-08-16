@@ -1,16 +1,24 @@
-## Hi there 👋
-
-<!--
-**PeTcHeNkA/PeTcHeNkA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### <img width="45" alt="about" src="https://raw.github.com/terrakok/terrakok/master/about.png"> More about me
+```kotlin
+val mrpetchenka = developer {
+    about {
+        name = "Artyom"
+        role = "Kotlin Developer"
+        tagline = "Crafting elegant code with Kotlin magic ✨"
+    }
+    techStack {
+        languages("Kotlin", "Java", "JS", "Python", "C#")
+        frameworks("Android", "KMP", "Compose")
+        tools("SQL", "Git", "Unity")
+    }
+    skills {
+        web("HTML", "CSS", "JS")
+        mobile("Kotlin", "Android")
+        gameDev("Unity", "C#")
+    }
+    links {
+        telegram = "@mrpetchenka"
+        gitlab = "gitlab.com/PeTcHeNkA"
+    }
+}
+```
