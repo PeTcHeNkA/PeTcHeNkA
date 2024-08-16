@@ -6,16 +6,7 @@ val mrpetchenka = developer {
         role = "Kotlin Developer"
         tagline = "Crafting elegant code with Kotlin magic ✨"
     }
-    techStack {
-        languages("Kotlin", "Java", "JS", "Python", "C#")
-        frameworks("Android", "KMP", "Compose")
-        tools("SQL", "Git", "Unity")
-    }
-    skills {
-        web("HTML", "CSS", "JS")
-        mobile("Kotlin", "Android")
-        gameDev("Unity", "C#")
-    }
+    skills("Kotlin/Java/NodeJS/Python", "Android/KMP/Compose", "HTML/CSS/JS", "SQL/Git", "Unity/C#")
     links {
         telegram = "@mrpetchenka"
         gitlab = "gitlab.com/PeTcHeNkA"
